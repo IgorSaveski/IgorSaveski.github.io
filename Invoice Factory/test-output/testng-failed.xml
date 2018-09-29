@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="5" name="Testing(failed)">
+    <classes>
+      <class name="testsIF.BusinessPageTest">
+        <methods>
+          <include name="newBusiness"/>
+          <include name="tearDown"/>
+          <include name="viewDetails"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- testsIF.BusinessPageTest -->
+      <class name="testsIF.InvoicesPageTest">
+        <methods>
+          <include name="discardNewInvoice"/>
+          <include name="tearDown"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- testsIF.InvoicesPageTest -->
+    </classes>
+  </test> <!-- Testing(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

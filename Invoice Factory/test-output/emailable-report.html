@@ -1,0 +1,68 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">TestSuite</th></tr>
+<tr><td><a href="#t0">Testing</a></td><td class="num">16</td><td class="num">0</td><td class="num attn">3</td><td class="num">112,541</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">TestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Testing &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">testsIF.BusinessPageTest</td><td><a href="#m0">newBusiness</a></td><td rowspan="1">1533322675443</td><td rowspan="1">10121</td></tr><tr class="failedeven"><td><a href="#m1">viewDetails</a></td><td rowspan="1">1533322675439</td><td rowspan="1">0</td></tr><tr class="failedodd"><td rowspan="1">testsIF.InvoicesPageTest</td><td><a href="#m2">discardNewInvoice</a></td><td rowspan="1">1533322608543</td><td rowspan="1">12</td></tr><tr><th colspan="4">Testing &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">testsIF.BusinessPageTest</td><td><a href="#m3">Logout</a></td><td rowspan="1">1533322685564</td><td rowspan="1">2068</td></tr><tr class="passedodd"><td rowspan="6">testsIF.InvoicesPageTest</td><td><a href="#m4">StatusChange</a></td><td rowspan="1">1533322662292</td><td rowspan="1">3512</td></tr><tr class="passedodd"><td><a href="#m5">addNewInvoice</a></td><td rowspan="1">1533322608563</td><td rowspan="1">20267</td></tr><tr class="passedodd"><td><a href="#m6">addNewInvoiceErrorMessages</a></td><td rowspan="1">1533322628834</td><td rowspan="1">4849</td></tr><tr class="passedodd"><td><a href="#m7">addNewInvoiceErrorMessages1</a></td><td rowspan="1">1533322633695</td><td rowspan="1">15408</td></tr><tr class="passedodd"><td><a href="#m8">invoicesFilter</a></td><td rowspan="1">1533322649107</td><td rowspan="1">13181</td></tr><tr class="passedodd"><td><a href="#m9">invoicesOption</a></td><td rowspan="1">1533322665808</td><td rowspan="1">9627</td></tr><tr class="passedeven"><td rowspan="9">testsIF.LoginPageTest</td><td><a href="#m10">ShowPassword</a></td><td rowspan="1">1533322588528</td><td rowspan="1">1798</td></tr><tr class="passedeven"><td><a href="#m11">emptyField</a></td><td rowspan="1">1533322586790</td><td rowspan="1">1730</td></tr><tr class="passedeven"><td><a href="#m12">invalidMail</a></td><td rowspan="1">1533322579867</td><td rowspan="1">3396</td></tr><tr class="passedeven"><td><a href="#m13">invalidPass</a></td><td rowspan="1">1533322583267</td><td rowspan="1">3507</td></tr><tr class="passedeven"><td><a href="#m14">login</a></td><td rowspan="1">1533322605344</td><td rowspan="1">3195</td></tr><tr class="passedeven"><td><a href="#m15">loginDomainName</a></td><td rowspan="1">1533322575142</td><td rowspan="1">4713</td></tr><tr class="passedeven"><td><a href="#m16">passleast6greater20</a></td><td rowspan="1">1533322600050</td><td rowspan="1">5294</td></tr><tr class="passedeven"><td><a href="#m17">uppercaseMail</a></td><td rowspan="1">1533322593968</td><td rowspan="1">6066</td></tr><tr class="passedeven"><td><a href="#m18">uppercasePass</a></td><td rowspan="1">1533322590330</td><td rowspan="1">3638</td></tr></tbody>
+</table>
+<h2>Testing</h2><h3 id="m0">testsIF.BusinessPageTest#newBusiness</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;add-new-business&quot;}
+  (Session info: chrome=68.0.3440.84)
+  (Driver info: chromedriver=2.40.565498 (ea082db3280dd6843ebfb08a625e3eb905c4f5ab),platform=Windows NT 6.3.9600 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.13.0&apos;, revision: &apos;2f0d292&apos;, time: &apos;2018-06-25T15:32:14.902Z&apos;
+System info: host: &apos;MIMAPC&apos;, ip: &apos;192.168.23.48&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_171&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.40.565498 (ea082db3280dd6..., userDataDir: C:\Users\igor\AppData\Local...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.84, webStorageEnabled: true}
+Session ID: 4f9be0eb32dd7d21a2aa4784af4a40bf
+*** Element info: {Using=id, value=add-new-business}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)
+	at org.openqa.selenium.By$ById.findElement(By.java:188)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at pagesIF.BusinessPage.newBusiness(BusinessPage.java:157)
+	at testsIF.BusinessPageTest.newBusiness(BusinessPageTest.java:30)
+... Removed 29 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">testsIF.BusinessPageTest#viewDetails</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at testsIF.BusinessPageTest.viewDetails(BusinessPageTest.java:16)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">testsIF.InvoicesPageTest#discardNewInvoice</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.NullPointerException
+	at testsIF.InvoicesPageTest.discardNewInvoice(InvoicesPageTest.java:19)
+... Removed 25 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">testsIF.BusinessPageTest#Logout</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">testsIF.InvoicesPageTest#StatusChange</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">testsIF.InvoicesPageTest#addNewInvoice</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">testsIF.InvoicesPageTest#addNewInvoiceErrorMessages</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">testsIF.InvoicesPageTest#addNewInvoiceErrorMessages1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">testsIF.InvoicesPageTest#invoicesFilter</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">testsIF.InvoicesPageTest#invoicesOption</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">testsIF.LoginPageTest#ShowPassword</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">testsIF.LoginPageTest#emptyField</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">testsIF.LoginPageTest#invalidMail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">testsIF.LoginPageTest#invalidPass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">testsIF.LoginPageTest#login</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">testsIF.LoginPageTest#loginDomainName</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">testsIF.LoginPageTest#passleast6greater20</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m17">testsIF.LoginPageTest#uppercaseMail</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m18">testsIF.LoginPageTest#uppercasePass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
